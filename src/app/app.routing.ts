@@ -29,6 +29,7 @@ export const routes: Routes = [
       { path: 'vatreturns',  loadChildren: 'app/vatreturns/vatreturns.module#VatReturnsModule' },
       { path: 'expenses',  loadChildren: 'app/expenses/expenses.module#ExpensesModule' },            
       { path: 'settings',  loadChildren: 'app/settings/settings.module#SettingsModule', data: { pageTitle: "CBK-Settings"} },
+      { path: 'config',  loadChildren: 'app/config/config.module#ConfigModule', data: { pageTitle: "CBK-Config"} },
       
       {
           path: 'tables',

@@ -37,6 +37,12 @@ export const routes: Routes = [
           loadChildren: 'app/+tables/tables.module#TablesModule',
           data: {pageTitle: 'Tables'}
         },
+        
+        {
+            path: 'wizard',
+            loadChildren: 'app/+forms/+wizards/wizards.module#WizardsModule',
+            data: {pageTitle: 'Wizards'}
+          }, 
       
 /*      {
         path: 'smartadmin',
@@ -56,11 +62,6 @@ export const routes: Routes = [
         path: 'e-commerce',
         loadChildren: 'app/+e-commerce/e-commerce.module#ECommerceModule',
         data: {pageTitle: 'E-commerce'}
-      },
-      {
-        path: 'forms',
-        loadChildren: 'app/+forms/forms-showcase.module#FormsShowcaseModule',
-        data: {pageTitle: 'Forms'}
       },
       {
         path: 'graphs',

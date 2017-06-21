@@ -36,7 +36,7 @@
           <i class="fa fa-lg fa-fw fa-tasks"></i> <span class="menu-item-parent">{{'Tasks' | i18n}}</span><span
           class="badge pull-right inbox-badge margin-right-13">7</span></a>
       </li>
- 
+<!-- 
       <li>
         <a href="#"><i class="fa fa-lg fa-fw fa-table"></i> <span
           class="menu-item-parent">{{'Tables' | i18n}}</span></a>
@@ -50,7 +50,7 @@
           </li>
         </ul>
       </li>
-      
+ -->      
  
           <li routerLinkActive="active">
         <a routerLink="/accounts" title="Accounts">
@@ -72,6 +72,11 @@
           class="badge pull-right inbox-badge margin-right-13">4</span></a>
       </li>
 
+	<li routerLinkActive="active">
+        <a routerLink="/expenses" title="Expenses">
+          <i class="fa fa-lg fa-fw fa-eur"></i> <span class="menu-item-parent">{{'Expenses' | i18n}}</span>
+		</a>
+     </li>
 
          <li routerLinkActive="active">
         <a routerLink="/vatreturns" title="VAT Returns">
@@ -79,11 +84,6 @@
           class="badge pull-right inbox-badge margin-right-13">3</span></a>
       </li>
 
-	<li routerLinkActive="active">
-        <a routerLink="/expenses" title="Expenses">
-          <i class="fa fa-lg fa-fw fa-eur"></i> <span class="menu-item-parent">{{'Expenses' | i18n}}</span>
-		</a>
-     </li>
 
 	<hr>
 	
@@ -94,10 +94,12 @@
      </li>
 	
 	<li routerLinkActive="active">
-        <a routerLink="/config" title="Settings">
+        <!--  <a routerLink="/config" title="Config"> -->
+        <a routerLink="/wizard" title="Config">
           <i class="fa fa-lg fa-fw fa-cog"></i> <span class="menu-item-parent">{{'Config' | i18n}}</span>
 		</a>
      </li>
+      
       
 <!-- 
       <li class="top-menu-invisible">

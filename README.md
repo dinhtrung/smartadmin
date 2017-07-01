@@ -1,4 +1,4 @@
-# Smartadmin
+# SA
 
 [live](http://sang2-shockwave.rhcloud.com) demo
 
